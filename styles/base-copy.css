@@ -123,7 +123,7 @@ p {
 
 .me img {
   padding-left: 20px;
-  width: 15px;
+  width: 150px;
 }
 .me p {
   margin-right: 20px;
@@ -148,6 +148,8 @@ p {
 }
 .flag {
   margin-right: 10px;
+}
+.flag img {
   width: 150px;
 }
 .country-details {
