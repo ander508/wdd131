@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 131 - Dynamic Web Fundamentals - Oluchukwu Offor</title>
+    <title>WDD 131 | Dynamic Web Fundamentals | Oluchukwu Offor</title>
     <meta
       name="description"
-      content="WDD 131 - Dynamic Web Fundamentals || Oluchukwu Offor || About Me"
+      content="WDD 131 - Dynamic Web Fundamentals | Oluchukwu Offor | About Me."
     />
-    <meta author="Oluchukwu Offor" />
+    <meta name="author" content="Oluchukwu Offor" />
+
     <link rel="stylesheet" href="styles/base.css" />
     <script src="scripts/getdates.js" defer></script>
   </head>
   <body>
     <header>
-      <h1>WDD 131: Dynamic Web Fundamentals - Oluchukwu A. Offor</h1>
+      <div class="header">
+        <h1>WDD 131: Dynamic Web Fundamentals - Oluchukwu A. Offor</h1>
+        <p class="clock">clock</p>
+      </div>
+
       <nav>
-        <ul>
-          <li><a href="https://linkedin.com">LinkedIn</a></li>
-          <li><a href="https://byui.instructure.com/">I-Learn</a></li>
-          <li>
-            <a
-              href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
-              >Scripture</a
-            >
-          </li>
-          <li><a href="#">Final Project</a></li>
-        </ul>
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://byui.instructure.com/">I-Learn</a>
+
+        <a
+          href="https://churchofjesuschrist.org/study/scrip\
+          tures/bofm/1-ne/3?lang=eng&id=p7#p7"
+          >Scripture</a
+        >
+
+        <a href="#">Final Project</a>
       </nav>
     </header>
     <main>
-      <section class="card about">
+      <section class="card">
         <h2>About Me</h2>
         <div class="me">
           <p>
@@ -46,13 +50,13 @@
             non?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
             non?
           </p>
-          <img src="images/me.jpg" alt="Profile Image" />
+          <img src="images/profile.png" alt="Profile Image" />
         </div>
         <p class="city">Calabar, Nigeria</p>
         <div class="country">
           <div class="flag">
             <div class="flag-colors">
-              <img src="images/nigerian-flag.jpg" alt="" />
+              <img src="images/nigerian-flag.jpg" alt="Country Flag" />
             </div>
             <p class="about-flag">Official flag of Nigeria</p>
           </div>
@@ -69,8 +73,17 @@
           </p>
         </div>
       </section>
-      <section class="card resource"></section>
+      <section class="card">
+        <h2>Web Dev Resources</h2>
+        <div><ul id="dev-resource"></ul></div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span>
+        <span class="space">|| Oluchukwu Offor || Nigeria</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
   </body>
 </html>
