@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 90px calc(100vh - 180px) 90px;
+  box-sizing: 0;
+}
+header {
+  width: 100vw;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+.main {
+  background-color: red;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+.left-sidebar {
+  background-color: green;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+.right-sidebar {
+  background-color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+footer {
+  background-color: black;
+  padding: 30px;
+  color: white;
+  line-height: 30px;
+  box-sizing: border-box;
+}
