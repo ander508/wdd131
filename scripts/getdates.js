@@ -4,5 +4,4 @@ thisYear.innerHTML = currentYear;
 
 const lastModified = document.querySelector("#lastModified");
 let oLastModif = new Date(document.lastModified);
-lastModified.innerHTML = oLastModif.toLocaleString();
-const clock = document.querySelector(".clock");
+lastModified.innerHTML = `Last Modified: ${oLastModif.toLocaleString()}`;
