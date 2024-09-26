@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.394);
+    padding: 30px;
+    background-color: rgba(90, 163, 205, 0.358);
+    box-sizing: border-box;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    
+}
+section{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    
+    
+}
