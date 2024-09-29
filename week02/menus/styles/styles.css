@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: gray;
+        height: 60px;
+        align-items: center;
+    }
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+#menu{
+    display: none;
+}
+@media(max-width: 550px){
+#menu{
+    display: block;
+    background-color: skyblue;
+    height: auto;
+    padding-top:1px;
+    padding-left: 10px;
+    color: black;
+    /* line-height: 40px; */
+    text-decoration: none;
+    font-size: 40px;
+    
+    
+}
+
+
+
+
+ul{
+    display: none;
+    /* display: flex;
+    flex-direction: column;
+    align-items:flex-start; */
+    
+    
+}
+ul li{
+    text-align: left;
+    width: 100%;
+}
+ul li a{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+}
+ul li a:hover{
+    text-align: left;
+    background-color: black;
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+.show{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: gray;
+    height: 200px;
+    text-align: left;
+    /* width: 70%; */
+}
+.hide{
+    display: none;
+}
+
+}
+
+/* For Method 2 */
+/* #menu.show::before {
+	content: "X";
+} */

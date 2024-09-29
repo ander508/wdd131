@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px auto;
+    text-align: center;
+    /* color: red; */
+}
+#menu{
+    display: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-around;
+    background-color: rgb(72, 71, 71);
+    padding: 10px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: rgb(186, 175, 175);
+}
+
+
+h2{
+    padding: 20px;
+    text-align: center;
+    color: rgb(33, 33, 191);
+}
+
+.stuff{
+    width: 70%;
+    height: 500px;
+    background-color: skyblue;
+    margin: 10px auto;
+}
+
+@media (max-width: 550px){
+    nav{
+        display: none;
+    }
+    #menu{
+        display: block;
+        /* padding: 20px; */
+        width: 10%;
+        color: black;
+        margin-bottom: 10px;
+        font-size: 30px;
+        padding: 5px;
+        background-color: white;
+        border: 0px;
+        position: absolute;
+        top:5px;
+        right: 10px;
+        
+    }
+    .show{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    .hide{
+        display: none;
+    }
+    .show a{
+        padding: 10px;
+        text-align: left;
+        
+    }
+    .show a:hover{
+        background-color: black;
+        padding: 10px;
+    }
+}
+
+.active::before {
+	content: "📍";  /* just a wayfinding symbol for the user */
+}
