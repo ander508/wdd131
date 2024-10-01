@@ -21,6 +21,8 @@ header{
 h1{
     color: white;
     padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
 }
 
 nav{
@@ -50,6 +52,11 @@ nav{
     color: black;
     transition: ease-in-out;
     transition-duration: 0.2s;
+}
+ 
+   
+h2{
+    font-size: 25px;
 }
 
 #menu{
@@ -98,10 +105,11 @@ main h2{
 }
 
 figure{
-    padding: 10px;
-    background-color: rgba(204, 206, 219, 0.13);
-    border-radius: 10px;
-}
+        padding: 10px;
+        background-color: rgba(204, 206, 219, 0.13);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px ;
+    }
 figcaption{
     text-align: center;
 }

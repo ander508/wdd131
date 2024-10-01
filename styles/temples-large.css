@@ -4,22 +4,6 @@
         grid-template-columns: 1fr 1fr;
     }
     
-    h1{
-        color: white;
-        padding: 15px;
-        box-sizing: border-box;
-        background-color: black;
-    }
-    h2{
-        font-size: 25px;
-    }
-  
-    #menu{
-        display: none;
-    }
-    .open{
-        display: none;
-    }
     nav{
         display: flex;
         flex-direction: row;
@@ -48,10 +32,18 @@
         border-radius: 5px;
         
     }
-    .active{
+    
+    #menu{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+   
+    /* .active{
         background-color: black;
         color: white;
-    }
+    } */
     main{
         width: 90%;
         margin: 0 auto;
@@ -68,20 +60,6 @@
         justify-content: space-around;
     
         gap: 20px;
-    }
-    figure{
-        padding: 10px;
-        background-color: rgba(204, 206, 219, 0.13);
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px ;
-    }
-    figcaption{
-        text-align: center;
-    }
-    
-    figure img{
-        border-radius: 10px;
-        
     }
     
     
