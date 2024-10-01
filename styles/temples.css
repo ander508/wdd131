@@ -88,11 +88,9 @@ nav a:hover{
 }
 
 main{
-    width: 90%;
-    margin: 0 auto;
+   
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 173px;
 }
 
 main h2{
