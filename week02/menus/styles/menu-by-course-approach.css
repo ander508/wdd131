@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+h1{
+    background-color: gray;
+    padding: 10px;
+    
+}
+nav{
+    display: none;
+}
+
+
+#menu{
+    padding: 10px;
+    background-color: gray;
+    border: none;
+    height: 57px;
+    text-align: right;
+    /* border: 1px solid; */
+
+}
+
+#menu::before{
+    content: "☰";
+    font-size: 28px;
+    color: black;
+    /* height: 10px; */
+    
+}
+
+#menu.show::before{
+    content: 'X';
+}
+nav.show{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    grid-column: 1/3;
+    /* width: 50%;
+    margin-left: 50%; */
+    
+    
+}
+nav.show a{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+nav.show a:hover{
+    color: black;
+    background-color: white;
+    
+}
+@media (min-width: 550px){
+   
+   #menu{
+       display: none;
+   }
+   nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 17px;
+    grid-column: 2/3;
+
+   }
+   nav a{
+       color: black;
+       text-decoration: none;
+       font-size: 20px;
+   }
+   nav.show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 7px;
+    grid-column: 2/3;
+   }
+   
+}
