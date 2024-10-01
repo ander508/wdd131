@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+}
+
+nav{
+    display: none;
+}
+.open{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1746a3;
+    background-color: #1746a3;
+    padding: 5px;
+    grid-column: 1/3;
+    
+} 
+.open a{ 
+     text-decoration: none;
+     font-size: 16px;
+}
+
+.open a:hover{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+#menu{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10px;
+    border: none;
+}
+nav a{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+nav a:hover{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+}
+
+.fig{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 173px;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 60%;
+    margin: 30px auto;
+    padding-bottom: 5px;
+    
+}
+
+figure{
+    padding: 10px;
+    background-color: rgba(204, 206, 219, 0.13);
+    border-radius: 10px;
+}
+figcaption{
+    text-align: center;
+}
+
+figure img{
+    border-radius: 10px;
+    
+}
+
+footer{
+    height: auto;
+    background-color: black;
+    max-width: 100vw;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    
+  }
+  footer p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    
+  }

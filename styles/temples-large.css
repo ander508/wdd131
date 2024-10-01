@@ -1,0 +1,88 @@
+@media (min-width:600px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    h1{
+        color: white;
+        padding: 15px;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    h2{
+        font-size: 25px;
+    }
+  
+    #menu{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        /* gap: 10px; */
+        justify-content: space-between;
+        padding: 5px 20px;
+        align-items: center;
+        grid-column: 2/3;
+        background-color: #1746a3
+    }
+    
+    nav a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        line-height: 20px;
+        padding-top: 5px;
+    }
+    nav a:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        
+    }
+    .active{
+        background-color: black;
+        color: white;
+    }
+    main{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 173px;
+    }
+    
+    .fig{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    
+        gap: 20px;
+    }
+    figure{
+        padding: 10px;
+        background-color: rgba(204, 206, 219, 0.13);
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px ;
+    }
+    figcaption{
+        text-align: center;
+    }
+    
+    figure img{
+        border-radius: 10px;
+        
+    }
+    
+    
+}
