@@ -11,8 +11,7 @@
         left: 20px;
         
     }
-    .data-item, .weather-item{
-    }
+   
    
     .data-item p,.weather-item p{
         font-weight: bolder;
@@ -52,10 +51,3 @@
         
     }
 }
-/* @media (min-width: 500px){
-    .weather{
-        position: absolute;
-        top: 400px;
-        right: 30px;
-        }
-} */
