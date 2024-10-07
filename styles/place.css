@@ -8,6 +8,7 @@
     --header-color: #00FF00;
     --footer-color: #00FF00;
     --header-font: #000000;
+    --font-family: "Roboto", serif;
 }
 
 
@@ -19,6 +20,7 @@ h1{
     text-align: center;
     color: var(--header-font);
     font-size: 50px;
+    font-family: var(--font-family);
 }
 .hero img{
     width: 100%;
