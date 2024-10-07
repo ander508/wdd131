@@ -1,0 +1,61 @@
+@media (min-width: 600px) {
+    
+    main{
+        margin-bottom: 362px;
+    }
+    .data{
+        position: absolute;
+        top: 170px;
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.741);
+        left: 20px;
+        
+    }
+    .data-item, .weather-item{
+    }
+   
+    .data-item p,.weather-item p{
+        font-weight: bolder;
+        color: black;
+        font-size: 13px;
+        margin-top: 5px;
+        
+    }
+    
+    .weather{
+        position: absolute;
+        top: 300px;
+        right: 30px;
+        background-color: rgba(255, 255, 255, 0.741);
+        
+        
+    }
+    .data h2, .weather h2{
+        color: white;
+        background-color: #53df53fe;
+        margin-left: -25px;
+        width: 80%;
+        
+    }
+    
+    .weather img{
+       display: none;
+    }
+   .weather h2::after{
+       content: '⛅';
+       margin-left: 20px;
+   }
+   
+    
+    footer{
+    font-size: 25px;
+        
+    }
+}
+/* @media (min-width: 500px){
+    .weather{
+        position: absolute;
+        top: 400px;
+        right: 30px;
+        }
+} */
