@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root{
     --header-color: #00FF00;
@@ -36,10 +41,8 @@ main{
 .data, .weather{
     text-align: center;
     padding: 10px;
-    /* width: 400px; */
-    /* background-color: rgba(0, 0, 0, 0.371); */
+    
 }
-/* .weather{width: 250px;} */
 
 .data h2, .weather h2{
     width: 50%;
@@ -52,7 +55,6 @@ main{
 .data-item, .weather-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* justify-content: space-between; */
     text-align: center;
 }
 
