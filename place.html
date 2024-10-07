@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 131 - Place</title>
+        <meta name="description" content="WDD 131 - Place - Oluchukwu Offor">
+        <meta name="author" content="Oluchukwu Offor">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Nigeria</h1>
+        </header>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/nigeria-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/nigeria-medium.webp" media="(min-width: 500px)">
+                    <img
+                        src="images/nigeria-small.webp"
+                        alt="Nigeria Image"
+                        width="200"
+                        height="300"
+                    >
+                </picture>
+            </div>
+            <!-- <div class="section-container"> -->
+            <section class="data">
+                <h2>Data</h2>
+                <div class="data-item">
+                    <p class="one">Area:</p>
+                    <p class="two">1234566</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Population:</p>
+                    <p class="two">202,000,000</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Capital:</p>
+                    <p class="two">Abuja</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Language:</p>
+                    <p class="two">Igbo/Yoruba/Hausa/ English</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Currency:</p>
+                    <p class="two">Naira</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Time Zone:</p>
+                    <p class="two">UTC+1</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Calling Code:</p>
+                    <p class="two">+234</p>
+                </div>
+                <div class="data-item">
+                    <p class="one">Internet TLD:</p>
+                    <p class="two">.ng</p>
+                </div>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather.svg" alt="Weather-svg">
+                <div class="weather-item">
+                    <p class="one">Temperature:</p>
+                    <p class="two">10°C</p>
+                </div>
+                <div class="weather-item">
+                    <p class="one">Condition:</p>
+                    <p class="two">Partly Cloudy</p>
+                </div>
+                <div class="weather-item">
+                    <p class="one">Wind:</p>
+                    <p class="two"> 5km/h</p>
+                </div>
+                <div class="weather-item">
+                    <p class="one">Wind Chill:</p>
+                    <p class="two" id="windchill"></p>
+                </div>
+            </section>
+            <!-- </div> -->
+        </main>
+    </main>
+    <footer>
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            | Oluchukwu A. Offor
+        | Calabar, Nigeria.
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
