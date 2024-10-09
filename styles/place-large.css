@@ -1,11 +1,12 @@
 @media (min-width: 600px) {
     
     main{
-        margin-bottom: 362px;
+        margin-bottom: 90px;
+        height: 600px;
     }
     .data{
         position: absolute;
-        top: 170px;
+        top: 140px;
         width: 300px;
         background-color: rgba(255, 255, 255, 0.741);
         left: 20px;
@@ -23,7 +24,7 @@
     
     .weather{
         position: absolute;
-        top: 300px;
+        top: 250px;
         right: 30px;
         background-color: rgba(255, 255, 255, 0.741);
         

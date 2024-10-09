@@ -19,7 +19,7 @@ body{
 
 header{
     background-color: var( --header-color);
-    padding: 50px;
+    padding: 30px;
 }
 h1{
     text-align: center;
