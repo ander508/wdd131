@@ -1,0 +1,64 @@
+body{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 10px;
+    
+}
+thead{
+    width: 100%;
+}
+
+.name{
+    width: 25%;
+    color: white;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0.979);
+    border-left: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    }
+th{
+    border: 1px solid black;
+    color: white;
+}
+.group{
+    padding: 20px;
+    background-color: black;
+    
+}
+.name.one{
+    background-color: rgb(205, 205, 205);
+    font-size: 1.2rem;
+    border: 0px;
+}
+
+.two{
+    color: black;
+    padding: 10px;
+    
+}
+td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+    border-left: 1px solid rgba(0, 0, 0, 0.112);
+    text-align: center;
+}
+td:last-child{
+    border-right: 1px solid rgba(232, 230, 230, 0.53);
+}
+tr:nth-of-type(odd){
+    background-color: rgba(201, 197, 197, 0.08);
+}
+img{
+    max-width: 200px;
+    /* margin-left: 50px; */
+    /* width: 50px; */
+}

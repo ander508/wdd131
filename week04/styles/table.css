@@ -1,0 +1,33 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+th{
+    border-bottom: 1px solid;
+    border-right: 1px solid; background-color: goldenrod;
+}
+caption{
+    width: 100%;
+    box-sizing: border-box;
+    caption-side: bottom;
+}
+.one{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+tr:nth-of-type(odd){
+    background-color: rgba(128, 128, 128, 0.14);
+}
+td{
+    padding: 10px;
+    /* text-align: center; */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazyload Example</title>
+        <link rel="stylesheet" href="styles/lazyload.css">
+        <script src="scripts/lazyload.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Lazyload Example</h1>
+        </header>
+        <main>
+            <picture>
+                <img
+                    src="images/site1.webp"
+                    alt="Site Image"
+                    loading="lazy"
+                    width="400"
+                    height="600"
+                >
+            </picture>
+            <picture>
+                <img
+                    src="images/site5.webp"
+                    alt="Site Image"
+                    loading="lazy"
+                    width="400"
+                    height="660"
+                >
+            </picture>
+            <picture>
+                <img
+                    src="images/site3.webp"
+                    alt="Site Image"
+                    loading="lazy"
+                    width="400"
+                    height="700"
+                >
+            </picture>
+            <picture>
+                <img
+                    src="images/site6.webp"
+                    alt="Site Image"
+                    loading="lazy"
+                    width="400"
+                    height="750"
+                >
+            </picture>
+            <picture>
+                <img
+                    src="images/site4.webp"
+                    alt="Site Image"
+                    loading="lazy"
+                    width="400"
+                    height="800"
+                >
+            </picture>
+        </main>
+        <footer>
+            <p>
+                &copy;
+                <span id="currentYear"></span>
+                | Oluchukwu A. Offor
+            | Calabar, Nigeria.
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
