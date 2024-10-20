@@ -121,6 +121,9 @@ main{
     margin-left: 25%;
     text-align: left;
 }
+.space{
+    margin-bottom: 20px;
+}
 img{
     margin: 0 auto;
     max-width: 100%;

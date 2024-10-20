@@ -126,7 +126,7 @@ function sectionTemplate(temples){
     return `<div class ="card">
       <h3>${temples.templeName}</h3>
       
-      <div>
+      <div class="space">
       <p>LOCATION: ${temples.location}</p>
       <p>DEDICATION: ${temples.dedicated}</p>
       <p>SIZE: ${temples.area} sq ft</p>
