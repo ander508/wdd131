@@ -6,14 +6,15 @@ const visitsDisplay = document.querySelector(".visits");
 // Get the number of visits from localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls")) || 0;
 
-if (numVisits !== 0){
+if (numVisits >= 0){
+    numVisits ++
     visitsDisplay.textContent =`${numVisits}`
 }
 else {
     visitsDisplay.textContent = `No review yet`
 }
 
-numVisits ++
+// numVisits ++
 
 localStorage.setItem("visits-ls",  numVisits)
 
